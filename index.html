@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <header class="flex py-[34px] px-[80px] bg-[#06337B] justify-between">
+        <div class="text-white flex items-center gap-[4px]">
+          <img src="assets/img/Logo Icon.svg" alt="" />
+          <h3 class="text-arial font-bold text-[24px]">SeeHeart</h3>
+        </div>
+        <div class="flex gap-[40px] items-center font-bold">
+          <div class="flex">
+            <ul class="flex text-white gap-[40px]">
+              <li class="underline-animation">Homepage</li>
+              <li class="underline-animation">Blog</li>
+            </ul>
+          </div>
+          <button class="bg-white flex text-blue py-[12px] px-[20px] rounded-md gap-[8px]">
+            <img src="assets/img/download.svg" alt="" />
+            <p class="text-[#06337B]">Download App</p>
+          </button>
+        </div>
+      </header>
+      <div class="flex p-[40px] bg-[#052e70] w-[1180px] mx-auto mt-[60px] rounded-md gap-[64px]">
+        <div class="flex flex-col gap-[8px]">
+          <p class="text-[#7ec2ff]">Today's choice</p>
+          <h3 class="text-white font-bold text-[24px]">Mau jaga berat badan? Lihat 5 makanan yang dapat membantu diet kamu!</h3>
+          <div class="flex gap-[10px] opacity-100">
+            <div class="w-[14px] h-[14px] bg-white rounded-[50%]"></div>
+            <div class="w-[14px] h-[14px] bg-white rounded-[50%] opacity-10"></div>
+            <div class="w-[14px] h-[14px] bg-white rounded-[50%] opacity-10"></div>
+          </div>
+        </div>
+        <button class="bg-[#f6d217] flex self-center text-[#06337B] py-[12px] px-[20px] rounded-md gap-[8px] font-bold px-[28px] py-[16px]">Lihat Blog</button>
+      </div>
+      <div class="mt-[64px] w-[1013px] mx-auto">
+        <p class="text-center font-bold text-white text-[64px]">Ayo lihat Berapa Nilai Kesehatan kamu Disini!</p>
+        <p class="text-center text-white text-[20px]">Kamu dapat menghitung kalori makanan, berat badan ideal, jumlah air minum, waktu tidur, dan langkah kakimu.</p>
+      </div>
+      <div class="flex flex-col p-[40px] bg-[#052e70] bg-white w-[1092px] mx-auto mt-[50px] rounded-md gap-[24px] mt-[50px] mb-[107px]">
+        <div class="flex flex-col gap-[32px]">
+          <div class="flex items-center gap-[12px]">
+            <img src="assets/img/Calculator.svg" alt="" />
+            <p class="font-bold text-black text-[36px]">Mau Hitung Ideal Apa Hari Ini?</p>
+          </div>
+          <ul class="flex justify-between text-center">
+            <li class="border-b-2 border-[#06337B] px-[40px] py-[12px] text-[20px] w-[337px] text-[#06337B]">BMI</li>
+            <li class="border-b-2 text-[#b5b5b5] px-[40px] py-[12px] text-[20px] w-[337px]">Jumlah Air Minum</li>
+            <li class="border-b-2 text-[#b5b5b5] px-[40px] py-[12px] text-[20px] w-[337px]">Waktu Tidur</li>
+          </ul>
+        </div>
+        <div>
+          <form class="flex flex-col gap-[24px]">
+            <div class="flex gap-[40px]">
+              <div class="flex gap-[8px]">
+                <input type="radio" name="jenisKelamin" />
+                <label class="text-[14px]" for="">Laki-laki</label>
+              </div>
+              <div class="flex gap-[8px]">
+                <input type="radio" name="jenisKelamin" />
+                <label class="text-[14px]" for="">Perempuan </label>
+              </div>
+            </div>
+            <div class="flex gap-[40px]">
+              <div class="flex flex-col gap-[6px]">
+                <label class="text-black text-[14px] font-semibold">Tinggi Badan</label>
+                <div class="flex">
+                  <input class="border-l border-t border-b py-[10px] px-[15px] w-[265px] rounded-l" type="text" name="" id="" placeholder="input" />
+                  <span class="border px-[16px] py-[10px] rounded-r">cm</span>
+                </div>
+              </div>
+              <div class="flex flex-col gap-[6px]">
+                <label class="text-black text-[14px] font-semibold">Tinggi Badan</label>
+                <div class="flex">
+                  <input class="border-l border-t border-b py-[10px] px-[15px] w-[265px] rounded-l" type="text" name="" id="" placeholder="input" />
+                  <span class="border px-[16px] py-[10px] rounded-r">kg</span>
+                </div>
+              </div>
+              <button class="bg-[#06337B] py-[16px] px-[28px] w-[225px] rounded-lg font-semibold text-[18px] text-white self-end">Hitung Berat Badan</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
