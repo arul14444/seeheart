@@ -34,13 +34,22 @@ button {
 .nav-link {
   color: white;
 }
-.secsion {
+.secsion1 {
   display: flex;
   width: auto;
   padding: 96px 0px;
   flex-direction: column;
   align-items: center;
   background: var(--blue-blue-500, #06337b);
+}
+.secsion2 {
+  width: auto;
+  height: 660px;
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  background: var(#7fa6e3);
 }
 .heading {
   color: var(--white-white-50, #fff);
@@ -75,4 +84,8 @@ input {
 
   /* Shadow/xs */
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.card {
+  width: 366px;
+  height: 524px;
 }
